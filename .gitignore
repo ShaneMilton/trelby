@@ -1,3 +1,9 @@
 *.pyc
 *.pyo
 .trelby/
+MANIFEST
+dict_en.dat.gz
+dist/
+manual.html
+names.txt.gz
+trelby.1.gz

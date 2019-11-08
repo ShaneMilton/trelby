@@ -451,14 +451,19 @@ class Config:
         v.addInt("fontSize", 12, "FontSize", 4, 72)
 
         # margins
+        #v.addFloat("marginBottom", 25.4, "Margin/Bottom", 0.0, 900.0)
+        #v.addFloat("marginLeft", 38.1, "Margin/Left", 0.0, 900.0)
+        #v.addFloat("marginRight", 25.4, "Margin/Right", 0.0, 900.0)
+        #v.addFloat("marginTop", 12.7, "Margin/Top", 0.0, 900.0)
+        # update margins to Open-Screenplay-Format
         v.addFloat("marginBottom", 25.4, "Margin/Bottom", 0.0, 900.0)
         v.addFloat("marginLeft", 38.1, "Margin/Left", 0.0, 900.0)
-        v.addFloat("marginRight", 25.4, "Margin/Right", 0.0, 900.0)
-        v.addFloat("marginTop", 12.7, "Margin/Top", 0.0, 900.0)
+        v.addFloat("marginRight", 38.1, "Margin/Right", 0.0, 900.0)
+        v.addFloat("marginTop", 38.1, "Margin/Top", 0.0, 900.0)
 
         # paper size
-        v.addFloat("paperHeight", 297.0, "Paper/Height", 100.0, 1000.0)
-        v.addFloat("paperWidth", 210.0, "Paper/Width", 50.0, 1000.0)
+        v.addFloat("paperHeight", 279.4, "Paper/Height", 100.0, 1000.0)
+        v.addFloat("paperWidth", 215.9, "Paper/Width", 50.0, 1000.0)
 
         # leave at least this many action lines on the end of a page
         v.addInt("pbActionLines", 2, "PageBreakActionLines", 1, 30)
